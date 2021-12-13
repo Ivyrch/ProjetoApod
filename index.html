@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <title>APOD</title>
+  </head>
+  <body>
+  
+    <header>
+        <h1><a onclick="window.location.reload();">Uma foto da galáxia para cada dia.</a></h1> 
+        <div class="botoes">
+            <input type="date" id="escolha" />
+          </div>
+          
+          <div class="botoes">
+            <button onclick="apod()">procurar</button>
+          </div>
+       </header>
+  
+  
+ 
+      
+
+<div class= "container">
+  
+  <h2 id= "data"></h2>
+
+  <h2 id="titulo"></h2>
+
+    <img id="foto" />
+
+  <h6 id="autoria"></h6>
+   
+ <p id="explicacao"></p>
+
+</div>
+    
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="apod.js"></script>
+  </body>
+</html>

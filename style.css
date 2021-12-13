@@ -1,0 +1,131 @@
+* { margin: 0%; 
+    padding: 0%;
+
+}
+
+
+body {  background: url(ceu.jpg) no-repeat;
+    background-size: cover;
+ 
+
+}
+
+header { 
+    
+    font-family: 'Bakbak One', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    margin: 20px;      
+    
+}
+
+h1 { 
+    color:white;
+    -webkit-text-stroke: 1px rgb(20, 10, 10);
+}
+
+h2 { 
+    color:white;
+    margin: 10px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+  
+}
+input { 
+    width: 120px;
+    height: 10px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+
+
+button { 
+    
+        border-top: 1px solid #96d1f8;
+        background: #040e14;
+        background: -webkit-gradient(linear, left top, left bottom, from(#1e435c), to(#040e14));
+        background: -webkit-linear-gradient(top, #1e435c, #040e14);
+        background: -moz-linear-gradient(top, #1e435c, #040e14);
+        background: -ms-linear-gradient(top, #1e435c, #040e14);
+        background: -o-linear-gradient(top, #1e435c, #040e14);
+        padding: 6.6px 15px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: rgba(0,0,0,.4) 0 1px 0;
+        color: white;
+        font-size: 15px;
+        font-family: 'Bakbak One', cursive;
+        text-decoration: none;
+        vertical-align: middle;
+        }
+     .button:hover {
+        border-top-color: #28597a;
+        background: #28597a;
+        color: #ccc;
+        }
+     .button:active {
+        border-top-color: #1b435e;
+        background: #1b435e;
+        }
+
+
+
+.container { 
+    margin: 20px;
+    display: flex;
+    flex-direction: column;  
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: rgba(141, 139, 139, 0.3);
+    border-radius: 40px;
+    width: 60%;
+    height: 50%;
+
+       
+}
+
+
+img {  
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+   
+}
+
+p {
+
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border: 4px solid;
+    padding: 10px;
+    margin: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+   
+}
+
+
+@media (max-width: 900px) {
+    
+
+h1 {
+
+    font-size: medium;
+}
+
+.container { 
+    size-adjust: auto;
+    height: 100%;
+    width:90%;
+}
+
+}
